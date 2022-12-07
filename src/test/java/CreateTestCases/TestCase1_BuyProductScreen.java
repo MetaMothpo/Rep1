@@ -50,7 +50,7 @@ public class TestCase1_BuyProductScreen extends baseClass
         String ExpectedAmount = "Pay $60.00";
 
         Assert.assertTrue(ActualAmount.equalsIgnoreCase(ExpectedAmount
-        ), "Price is incorrect");
+        ), "Price is not correct");
         driver.findElement(By.name("submit")).click();
 
 

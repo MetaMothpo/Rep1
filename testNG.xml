@@ -1,0 +1,14 @@
+<suite name="Suite1" verbose="1" >
+    <test name="Nopackage" >
+        <classes>
+            <class name="CreateTestCases.TestCase1_BuyProductScreen" />
+        </classes>
+    </test>
+
+    <test name="Regression1">
+        <classes>
+            <class name="CreateTestCases.TestCase1_BuyProductScreen"/>
+
+        </classes>
+    </test>
+</suite>
